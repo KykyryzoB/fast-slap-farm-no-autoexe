@@ -30,5 +30,5 @@ end
 if #serverList > 0 then
 	game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, serverList[math.random(1, #serverList)])
 else
-    error("No servers found")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KykyryzoB/fast-slap-farm-no-autoexe/main/slpl/slpls.lua"))()
 end
