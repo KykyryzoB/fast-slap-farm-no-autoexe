@@ -19,6 +19,9 @@ for i, v in ipairs(workspace.Arena.island5.Slapples:GetDescendants()) do
             end
             wait(0.3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/KykyryzoB/fast-slap-farm-no-autoexe/main/slpl/slpls.lua"))()
+while wait(5) do 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KykyryzoB/fast-slap-farm-no-autoexe/main/slpl/slpls.lua"))()
+end
             ]])
 end
 local serverList = {}
